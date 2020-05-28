@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "experimentalDecorators": true,
+    "jsx": "preserve",
+    "target": "es5",
+    "sourceMap": true,
+    "baseUrl": "./",
+    "paths": {
+      "@": [
+        "src/**/*"
+      ]
+    },
+    "plugins": [{
+      "transform": "ts-optchain/transform"
+    }]
+  },
+  "include": [
+    "src/**/*"
+  ],
+  "exclude": []
+}
